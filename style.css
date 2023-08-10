@@ -62,12 +62,23 @@ body {
   color: #fff;
   font-size: 30px;
 }
-.title button > a {
-  text-decoration: none;
-  text-align: center;
-  display: flex;
+.title > button {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .title > button {
   display: flex;
   justify-content: center;
+}
+/* location icon */
+.location img {
+  float: right;
+  padding-right: 50px;
+  position: ;
+}
+.title {
+  position: relative;
 }
