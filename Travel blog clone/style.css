@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  width: 90rem;
+  height: 505.25rem;
+}
+:root {
+  --color: #ffa500;
+}
+
+/* header style */
+.head {
+  background: url(./images/rectangle-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 587px;
+  width: 1483px;
+  flex-shrink: 0;
+}
+.menu > ul > li > a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+  color: #ffa500;
+}
+
+.menu > ul > li > a:hover {
+  cursor: pointer;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+}
+.menu > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 150px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+/* ====title section */
+.title > h1 {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-size: 64px;
+
+  color: #fff;
+}
+.title p {
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  color: #fff;
+  font-size: 30px;
+}
+.title > button {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.title > button {
+  display: flex;
+  justify-content: center;
+}
+/* location icon */
+.location img {
+  float: right;
+  padding-right: 50px;
+}
+.title {
+  position: relative;
+}
+
+/* side bar about me section */
+
+.sidebar {
+  background: #fff;
+  width: 27.38944rem;
+  height: 37.375rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  left: 20px;
+  top: 20px;
+
+  border: 5px solid white;
+  box-shadow: -5px 5px 20px -5px grey;
+}
+
+.sidebar > .mepic > img {
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat, #c4c4c4;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 22.74356rem;
+  height: 18.36275rem;
+  flex-shrink: 0;
+}
+.sidebar p {
+  text-align: center;
+}
